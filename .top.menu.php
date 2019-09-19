@@ -18,7 +18,7 @@ $aMenuLinks = Array(
 		"Новости", 
 		"news/", 
 		Array(), 
-		Array(), 
+		Array("CLASS"=>"color-red"), 
 		"" 
 	),
 	Array(

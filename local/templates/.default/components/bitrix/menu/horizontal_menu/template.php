@@ -29,7 +29,7 @@ foreach($arResult as $arItem):?>
 		<?if ($arItem["PERMISSION"] > "D"):?>
 
 			<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-				<li class="<?=$arItem["PARAMS"]["CLASS"]?>"><a href="<?=$arItem["LINK"]?>" class=""><?=$arItem["TEXT"]?></a></li>
+				<li class="<?=$arItem["PARAMS"]["CLASS"]?>"><a href="<?=$arItem["LINK"]?>" class="<?=$arItem["PARAMS"]["CLASS"]?>"><?=$arItem["TEXT"]?></a></li>
 			<?else:?>
 				<li><a href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 			<?endif?>
